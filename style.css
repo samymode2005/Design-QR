@@ -1,0 +1,35 @@
+*{
+    background-color: gainsboro;
+}
+.pty{
+    margin: 0 auto; 
+    margin-top: 6cm;
+    height: 400px;
+    width: 220px;
+    background-color: white;
+    position: relative;
+    border-radius: 12px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+}
+h3{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p{
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
