@@ -1,36 +1,47 @@
-*{
-    background-color: gainsboro;
+* {
+    font-family: "Outfit", sans-serif;
 }
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
 .pty{
-    margin: 0 auto; 
-    margin-top: 4cm;
-    height: 470px;
-    width: 350px;
-    background-color: white;
-    position: relative;
-    border-radius: 12px;
-    box-shadow: gray;
-}
-img{
-    height: 250px;
-    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 12px;
+    width: 320px;
+    height: 497px;
 }
-h3{
-    background-color: white;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.qr-code {
+    background-image: url("./image/image-qr-code.png");
+    background-color: hsl(0, 0%, 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 290px;
+    margin-top: 15px;
+    border-radius: 5%;
+}
+h2{
+    font-weight: 700;
+    padding: 0 20px;
 }
 p{
-    background-color: white;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 15px;
+    padding: 0 30px;
+    font-weight: 500;
+    color: hsl(218, 44%, 22%);
+    opacity: 0.6;
+    margin-bottom: 30px;
 }
