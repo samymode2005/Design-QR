@@ -3,18 +3,19 @@
 }
 .pty{
     margin: 0 auto; 
-    margin-top: 6cm;
-    height: 400px;
-    width: 220px;
+    margin-top: 4cm;
+    height: 470px;
+    width: 350px;
     background-color: white;
     position: relative;
     border-radius: 12px;
+    box-shadow: gray;
 }
 img{
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 12px;
@@ -22,7 +23,7 @@ img{
 h3{
     background-color: white;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
